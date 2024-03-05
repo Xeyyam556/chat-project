@@ -1,0 +1,54 @@
+.messages{
+    border: 1px solid green;
+    width: 100%;
+    box-sizing: border-box;
+    height: 400px;
+    background-image: url('/wp.jpg');
+}
+.inp, .inp1{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 2em;
+    padding: 5px    ;
+}
+.login-form{
+    display: flex;
+}
+.btn{
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+.login, .container{
+    display: none;
+}
+.messages{
+display: flex;
+flex-direction: column;
+/* background-color: black; */
+row-gap: 10px;
+overflow: auto;
+padding: 10px;
+overflow: auto;
+}
+.message{
+    color: white;
+background-color: black;
+border-radius: 10px;
+padding: 10px 20px;
+align-items: flex-start;
+}
+.my-message{
+    align-self: flex-end;
+}
+.incoming-message{
+    align-self: flex-start;
+    
+}
+.inp{
+    border-radius: 10px;
+    border: 1px solid green;
+    margin-top: 30px;
+}
